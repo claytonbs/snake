@@ -1,0 +1,139 @@
+
+
+	@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+		
+
+	body {
+		margin: 0;
+		background-image: url('bg2.jpg');
+	    background-repeat: no-repeat;
+	  /*  background-size: 100% 100%; */
+
+	}
+
+
+	#food {
+		width: 12px;
+		height: 15px;
+		-webkit-transform-origin: top left;
+		    -ms-transform-origin: top left;
+		        transform-origin: top left;
+		color: #800000;
+		position: absolute;
+		top: 100px;
+		left: 79px;
+		/*background-color: tomato;*/
+		
+	}
+
+	#matrix{
+		height: 500px;
+		width: 1000px;
+		position: absolute;
+		top: 100px;
+		left: 69px;
+		border: 0px solid blue;
+
+		z-index: -2;
+	}
+
+
+
+	#cobra{
+		width: 12px;
+		height: 15px;
+		-webkit-transform-origin: top left;
+		    -ms-transform-origin: top left;
+		        transform-origin: top left;
+			background-color: brown;
+	
+
+		position: absolute;
+		top: 100px;
+		left: 79px;
+	}
+
+	.rabo {
+		width: 12px;
+		height: 15px;
+		border-radius: 50%;
+		-webkit-transform-origin: top left;
+		    -ms-transform-origin: top left;
+		        transform-origin: top left;
+		background-color: brown;
+		position: absolute;
+		top: 100px;
+		left: 79px;
+		-webkit-transition: -webkit-transform 50ms linear;
+		transition: -webkit-transform 50ms linear;
+		-o-transition: transform 50ms linear;
+		transition: transform 50ms linear;
+		transition: transform 50ms linear, -webkit-transform 50ms linear;
+	}
+
+
+	button {
+		font-family: 'Raleway', sans-serif;
+		/* position: relative; */
+		height: 30px;
+		outline: none;
+		background-color: black;
+		margin-left: 10px;
+		color: white;
+		border: none;
+	}
+
+	button:hover {
+
+		background-color: white;
+		color: black;
+		cursor: pointer;
+	}
+
+
+	#level {
+
+		color: white;
+		margin-left: 50px;
+		font-size: 0.9em;
+	}
+
+
+	h3, #level {
+		font-family: 'Raleway', sans-serif;
+			/* position: relative; */
+		top: 570px;
+	}
+
+
+	#perdeu {
+		position: absolute;
+		font-family: 'Raleway', sans-serif;
+		top: 280px;
+		left: 487px;
+		display: none;
+		color: white;
+	}
+
+
+	#points {
+		margin-left: 69px;
+		color: white;
+		left: 69px;
+	}
+
+
+	nav {
+		margin: 0;
+		height: 30px;
+		background-color: black;
+	}
+
+
+	#difInput {
+		margin-left: 10px;
+	}
+
+
+
+	
